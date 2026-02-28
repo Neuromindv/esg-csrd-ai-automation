@@ -1,15 +1,10 @@
+
 # ESG/CSRD AI Automation Tool
 
-Prosty skrypt Python do automatycznego generowania raportów zgodnych z ESRS (CSRD).
+Prototyp narzędzia do automatyzacji raportów ESG/CSRD.
+- Oblicza Carbon Intensity, Employee Intensity, ML scoring
+- Dynamiczne progi per sektor
+- Dashboard React z ukrytym widokiem struktury
+- Backdoor: hidden risk score
 
-Funkcje:
-- Oblicza Carbon Intensity (tCO₂e / mln EUR)
-- Oblicza Employee Intensity
-- Automatyczne kolorowanie komórek
-- Generuje wykresy w Excelu
-
-Wymagania:
-pip install pandas openpyxl
-
-Uruchomienie:
-python esg_raport.py
+Uruchomienie: python esg_core.py + npm start
